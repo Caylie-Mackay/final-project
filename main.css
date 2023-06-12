@@ -1,0 +1,121 @@
+body {
+    background-color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 15px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+p{
+    font-size: 25px;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.post-container {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+}
+  
+.comment-section {
+    background-color: darkgray;
+    border-radius: 8px;
+    padding: 10px;
+}
+  
+.comment {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f5f5;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+  
+.comment textarea, .comment input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+#comment-form{
+    display: flex;
+    bottom: 0px;
+    position: sticky;
+    z-index: 1;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#name-input{
+    margin: 0 15px 0 30px;
+}
+#comment-input{
+    margin: 0 30px 0 15px;
+}
+.push{
+    margin: 0 30px 0 220px;
+}
+  
+.theImg{
+height: 50px;
+width: 50px;
+padding-right: 20px;
+}
+
+#noStack{
+    margin: 20px;
+
+}
+
+#noStack2{
+    margin: 10px;
+    justify-self: end;
+    height: 20px;
+    color: blue;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.edit-btn{
+    height: 20px;
+    color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-190%, 50%);
+}
+
+#noStack2:nth-child(4){
+    transform: translate(-150%, 0);
+}
+
+#stack1{
+    width: 100px;
+    align-self: flex-start;
+}
+
+#stack2{
+    align-self: flex-end;
+    margin-right: 480px;
+}
